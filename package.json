@@ -7,7 +7,9 @@
     "build:development": "npx webpack --mode=development && npm run adjust-access-apache2",
     "build:production": "npx webpack --mode=production && npm run adjust-access-apache2",
     "start": "npx webpack --watch",
-    "adjust-access-apache2": "cd dist && touch .htaccess && echo \"Allow From All\" > .htaccess"
+    "adjust-access-apache2": "cd dist && touch .htaccess && echo \"Allow From All\" > .htaccess",
+    "check-updates": "npx npm-check-updates -u",
+    "install": "npm install"
   },
   "keywords": [],
   "author": "",
