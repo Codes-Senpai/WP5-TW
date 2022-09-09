@@ -1,6 +1,6 @@
 import './style.css'
 
-const hello = document.createElement('h1');
+/* const hello = document.createElement('h1');
 const wrapper = document.createElement('div');
 
 hello.textContent = 'Hello World!';
@@ -17,4 +17,4 @@ wrapper.classList.add(
 wrapper.appendChild(hello);
 document.body.appendChild(wrapper);
 
-//document.body.classList.add('bg-gradient-to-b', 'from-gray-700', 'to-gray-900',)
+document.body.classList.add('bg-gradient-to-b', 'from-gray-700', 'to-gray-900',); */

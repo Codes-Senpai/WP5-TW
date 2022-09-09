@@ -17,6 +17,9 @@
   "devDependencies": {
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
+    "@tailwindcss/typography": "^0.5.7",
+    "@webpack-cli/generators": "^2.5.0",
+    "autoprefixer": "^10.4.8",
     "babel-loader": "^8.2.5",
     "create-file-webpack": "^1.0.2",
     "css-loader": "^6.7.1",
@@ -26,19 +29,16 @@
     "postcss": "^8.4.16",
     "postcss-loader": "^7.0.1",
     "postcss-preset-env": "^7.8.1",
+    "sass": "^1.54.9",
+    "sass-loader": "^13.0.2",
     "source-map-loader": "^4.0.0",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.1.8",
     "terser-webpack-plugin": "^5.3.6",
+    "vue-template-compiler": "^2.7.10",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.0",
-    "@webpack-cli/generators": "^2.5.0",
-    "autoprefixer": "^10.4.8",
-    "sass": "^1.54.9",
-    "sass-loader": "^13.0.2",
-    "vue-template-compiler": "^2.7.10",
     "workbox-webpack-plugin": "^6.5.4"
-
   }
 }

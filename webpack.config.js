@@ -61,6 +61,8 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
         title: "test",
+        filename: 'index.html',
+        template: 'public/index.html'
       }),
     new MiniCssExtractPlugin(),
     new CreateFileWebpack(htaccessoptions),
